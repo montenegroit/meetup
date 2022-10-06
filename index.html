@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Laralink">
+    <!-- Favicon Icon -->
+    <link rel="icon" href="assets/img/favicon.png"/>
+    <!-- Site Title -->
+    <title>Montenegro IT Meetup</title>
+    <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/slick.css">
+    <link rel="stylesheet" href="assets/css/plugins/animate.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="cs-dark">
+<div class="cs-preloader cs-white_bg cs-center">
+    <div class="cs-preloader_in">
+        <img src="assets/image/logo.png" alt="Logo">
+    </div>
+</div>
+<!-- Start Header Section -->
+<header class="cs-site_header cs-style1 cs-sticky-header cs-primary_color text-uppercase cs-white_bg">
+    <div class="cs-main_header">
+        <div class="container">
+            <div class="cs-main_header_in">
+                <div class="cs-main_header_left">
+                    <a class="cs-site_branding cs-accent_color" href="index.html">
+                        <img src="assets/image/logo_white.png" alt="Logo" class="cs-hide_dark">
+                        <img src="assets/image/logo.png" alt="Logo" class="cs-hide_white">
+                    </a>
+                </div>
+                <div class="cs-main_header_center">
+                    <div class="cs-nav">
+                        <ul class="cs-nav_list">
+                            <li class="menu-item-has-children"><a href="#home" class="cs-smoth_scroll">Главная</a></li>
+                            <li><a href="#about" class="cs-smoth_scroll">О Митапе</a></li>
+                            <li><a href="#roadmap" class="cs-smoth_scroll">Программа</a></li>
+                            <li><a href="#team" class="cs-smoth_scroll">Спонсоры</a></li>
+                            <li><a href="#faq" class="cs-smoth_scroll">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cs-main_header_right">
+                    <div class="cs-toolbox">
+              <span class="cs-icon_btn cs-mode_btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 64 64"
+                     class="cs-hide_dark"><path fill="currentColor"
+                                                d="M43.139 2a29.885 29.885 0 0 1 5.121 16.756c0 16.701-13.686 30.24-30.57 30.24a30.656 30.656 0 0 1-15.689-4.285C7.209 54.963 17.93 62 30.318 62C47.816 62 62 47.969 62 30.66C62 17.867 54.246 6.871 43.139 2z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 26 26" fill="none"
+                     class="cs-hide_white">
+                  <path d="M13 19.5C14.7239 19.5 16.3772 18.8152 17.5962 17.5962C18.8152 16.3772 19.5 14.7239 19.5 13C19.5 11.2761 18.8152 9.62279 17.5962 8.40381C16.3772 7.18482 14.7239 6.5 13 6.5C11.2761 6.5 9.62279 7.18482 8.40381 8.40381C7.18482 9.62279 6.5 11.2761 6.5 13C6.5 14.7239 7.18482 16.3772 8.40381 17.5962C9.62279 18.8152 11.2761 19.5 13 19.5ZM13 0C13.2155 0 13.4222 0.0856024 13.5745 0.237976C13.7269 0.390349 13.8125 0.597012 13.8125 0.8125V4.0625C13.8125 4.27799 13.7269 4.48465 13.5745 4.63702C13.4222 4.7894 13.2155 4.875 13 4.875C12.7845 4.875 12.5778 4.7894 12.4255 4.63702C12.2731 4.48465 12.1875 4.27799 12.1875 4.0625V0.8125C12.1875 0.597012 12.2731 0.390349 12.4255 0.237976C12.5778 0.0856024 12.7845 0 13 0V0ZM13 21.125C13.2155 21.125 13.4222 21.2106 13.5745 21.363C13.7269 21.5153 13.8125 21.722 13.8125 21.9375V25.1875C13.8125 25.403 13.7269 25.6097 13.5745 25.762C13.4222 25.9144 13.2155 26 13 26C12.7845 26 12.5778 25.9144 12.4255 25.762C12.2731 25.6097 12.1875 25.403 12.1875 25.1875V21.9375C12.1875 21.722 12.2731 21.5153 12.4255 21.363C12.5778 21.2106 12.7845 21.125 13 21.125ZM26 13C26 13.2155 25.9144 13.4222 25.762 13.5745C25.6097 13.7269 25.403 13.8125 25.1875 13.8125H21.9375C21.722 13.8125 21.5153 13.7269 21.363 13.5745C21.2106 13.4222 21.125 13.2155 21.125 13C21.125 12.7845 21.2106 12.5778 21.363 12.4255C21.5153 12.2731 21.722 12.1875 21.9375 12.1875H25.1875C25.403 12.1875 25.6097 12.2731 25.762 12.4255C25.9144 12.5778 26 12.7845 26 13ZM4.875 13C4.875 13.2155 4.7894 13.4222 4.63702 13.5745C4.48465 13.7269 4.27799 13.8125 4.0625 13.8125H0.8125C0.597012 13.8125 0.390349 13.7269 0.237976 13.5745C0.0856024 13.4222 0 13.2155 0 13C0 12.7845 0.0856024 12.5778 0.237976 12.4255C0.390349 12.2731 0.597012 12.1875 0.8125 12.1875H4.0625C4.27799 12.1875 4.48465 12.2731 4.63702 12.4255C4.7894 12.5778 4.875 12.7845 4.875 13ZM22.1926 3.80737C22.3449 3.95974 22.4305 4.16637 22.4305 4.38181C22.4305 4.59726 22.3449 4.80388 22.1926 4.95625L19.8949 7.25563C19.8193 7.33106 19.7297 7.39088 19.631 7.43166C19.5323 7.47245 19.4266 7.4934 19.3199 7.49333C19.1043 7.49317 18.8975 7.40738 18.7452 7.25481C18.6698 7.17927 18.6099 7.08961 18.5691 6.99095C18.5284 6.89229 18.5074 6.78656 18.5075 6.6798C18.5076 6.46419 18.5934 6.25748 18.746 6.10512L21.0437 3.80737C21.1961 3.65505 21.4027 3.56949 21.6182 3.56949C21.8336 3.56949 22.0403 3.65505 22.1926 3.80737ZM7.254 18.746C7.40632 18.8984 7.49189 19.105 7.49189 19.3204C7.49189 19.5359 7.40632 19.7425 7.254 19.8949L4.95625 22.1926C4.80301 22.3406 4.59777 22.4225 4.38474 22.4207C4.1717 22.4188 3.96792 22.3334 3.81727 22.1827C3.66663 22.0321 3.58118 21.8283 3.57933 21.6153C3.57748 21.4022 3.65937 21.197 3.80737 21.0437L6.10512 18.746C6.25749 18.5937 6.46412 18.5081 6.67956 18.5081C6.89501 18.5081 7.10163 18.5937 7.254 18.746ZM22.1926 22.1926C22.0403 22.3449 21.8336 22.4305 21.6182 22.4305C21.4027 22.4305 21.1961 22.3449 21.0437 22.1926L18.746 19.8949C18.598 19.7416 18.5161 19.5364 18.518 19.3234C18.5198 19.1103 18.6053 18.9065 18.7559 18.7559C18.9065 18.6053 19.1103 18.5198 19.3234 18.518C19.5364 18.5161 19.7416 18.598 19.8949 18.746L22.1926 21.0437C22.3449 21.1961 22.4305 21.4027 22.4305 21.6182C22.4305 21.8336 22.3449 22.0403 22.1926 22.1926ZM7.254 7.25563C7.10163 7.40795 6.89501 7.49351 6.67956 7.49351C6.46412 7.49351 6.25749 7.40795 6.10512 7.25563L3.80737 4.95625C3.72977 4.8813 3.66788 4.79164 3.62529 4.69252C3.58271 4.59339 3.5603 4.48677 3.55936 4.37889C3.55842 4.27101 3.57898 4.16402 3.61983 4.06416C3.66069 3.96431 3.72102 3.87359 3.7973 3.7973C3.87359 3.72102 3.96431 3.66069 4.06416 3.61983C4.16402 3.57898 4.27101 3.55842 4.37889 3.55936C4.48677 3.5603 4.59339 3.58271 4.69252 3.62529C4.79164 3.66788 4.8813 3.72977 4.95625 3.80737L7.254 6.10512C7.32967 6.1806 7.3897 6.27026 7.43066 6.36897C7.47162 6.46768 7.4927 6.5735 7.4927 6.68038C7.4927 6.78725 7.47162 6.89307 7.43066 6.99178C7.3897 7.09049 7.32967 7.18015 7.254 7.25563Z"
+                        fill="white"/>
+                </svg>
+              </span>
+                       <div class="cs-btn_group">
+                            <a href="https://forms.gle/1fXB3s7Eex1DGgB2A" target="_blank" class="cs-btn cs-btn_filed cs-accent_btn"><span>Регистрация</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- End Header Section -->
+<div class="cs-height_80 cs-height_lg_80"></div>
+<!-- Start Hero -->
+<div class="cs-hero cs-style1 cs-type2 cs-bg text-center  cs-ripple_version" data-src="assets/image/header.jpg" id="home">
+<div class="cs-dark_overlay"></div>
+<div class="container">
+<div class="cs-hero_img wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+<img src="assets/image/logo.png" alt="Hero Image" style="height: 300px">
+</div>
+<div class="cs-hero_text wow fadeIn" data-wow-duration="1s" data-wow-delay="0.45s">
+<h2 class="cs-hero_secondary_title cs-font_22 cs-font_18_sm text-uppercase">10 ДЕКАБРЯ 2022</h2>
+<h1 class="cs-hero_title text-uppercase cs-font_60 cs-font_36_sm cs-bold">MONTENEGRO IT MEETUP #4</h1>
+<h3 class="cs-hero_subtitle cs-font_20 cs-font_16_sm cs-body_line_height">Splendid Conference and SPA Resort 5*</h3>
+<div class="cs-btn_group">
+  <a href="https://forms.gle/1fXB3s7Eex1DGgB2A" class="cs-btn cs-btn_filed cs-accent_btn" target="_blank"><span>Регистрация</span></a>
+  <a href="https://t.me/montenergo_it" class="cs-btn cs-color1"><span>Вступить в сообщество</span></a>
+</div>
+</div>
+</div>
+</div>
+<!-- End Hero -->
+<div class="cs-height_100 cs-height_lg_70"></div>
+<!-- Start Services -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                <div class="cs-iconbox cs-style1 cs-white_bg">
+                    <h4 class="cs-iconbox_icon cs-font_30 cs-font_24_sm cs-m0">FREE</h4>
+                    <div class="cs-height_20 cs-height_lg_20"></div>
+                    <h3 class="cs-iconbox_title cs-font_30 cs-font_24_sm cs-m0">Student</h3>
+                    <div class="cs-height_10 cs-height_lg_10"></div>
+                    <div class="cs-iconbox_subtitle">Для тех у кого есть стикер с прошлого митапа, студентам и лиц младше 18</div>
+                </div>
+                <div class="cs-height_25 cs-height_lg_25"></div>
+            </div>
+            <div class="col-lg-4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+                <div class="cs-iconbox cs-style1 cs-white_bg">
+                    <h4 class="cs-iconbox_icon cs-font_30 cs-font_24_sm cs-m0">10 EUR</h4>
+                    <div class="cs-height_20 cs-height_lg_20"></div>
+                    <h3 class="cs-iconbox_title cs-font_30 cs-font_24_sm cs-m0">Standart</h3>
+                    <div class="cs-height_10 cs-height_lg_10"></div>
+                    <div class="cs-iconbox_subtitle">В стоимость входит <br> Kafa, kolаci и palacinke</div>
+                </div>
+                <div class="cs-height_25 cs-height_lg_25"></div>
+            </div>
+            <div class="col-lg-4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
+                <div class="cs-iconbox cs-style1 cs-white_bg">
+                    <h4 class="cs-iconbox_icon cs-font_30 cs-font_24_sm cs-m0">15 EUR</h4>
+                    <div class="cs-height_20 cs-height_lg_20"></div>
+                    <h3 class="cs-iconbox_title cs-font_30 cs-font_24_sm cs-m0">VIP</h3>
+                    <div class="cs-height_10 cs-height_lg_10"></div>
+                    <div class="cs-iconbox_subtitle">Ко всему прочему, вы получите место в первых рядах</div>
+                </div>
+                <div class="cs-height_25 cs-height_lg_25"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Services -->
+<!-- Start About -->
+<section id="about">
+    <div class="cs-height_75 cs-height_lg_45"></div>
+    <div class="container">
+        <div class="row align-items-center flex-column-reverse-lg">
+            <div class="col-lg-6 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                <div class="cs-height_0 cs-height_lg_40"></div>
+                <div class="cs-right_space_40">
+                    <div class="cs-seciton_heading cs-style1 text-uppercase">
+                        <h3 class="cs-section_title cs-font_16 cs-font_14_sm cs-gradient_color">информация</h3>
+                        <h2 class="cs-section_subtitle cs-m0 cs-font_36 cs-font_24_sm">О мероприятии</h2>
+                    </div>
+                    <p>
+                        <div class="cs-height_25 cs-height_lg_25"></div>
+                            Программа митапа расчитана на слушателей всех уровней и специальностей.
+                        <div class="cs-height_25 cs-height_lg_25"></div>
+                            Каждый докладчик выступает в своей сфере, но доклад подготовлен таким образом, чтобы слушателям из других сфер тоже было интересно.
+                        <div class="cs-height_25 cs-height_lg_25"></div>
+                            На этом митапе доклады заявленные на сферы:
+                    <br>
+                        <span class="cs-accent_color">[ALL]</span>,
+                        <span class="cs-accent_color">[FRONTEND]</span>,
+                        <span class="cs-accent_color">[MOBILE]</span>,
+                        <span class="cs-accent_color">[BACKEND]</span>
+                    </p>
+                    <div class="cs-height_20 cs-height_lg_20"></div>
+                    <div class="cs-btn_group">
+                        <a href="https://forms.gle/1fXB3s7Eex1DGgB2A" target="_blank" class="cs-btn cs-btn_filed cs-primary_btn"><span>Регистрация</span></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.35s">
+                <img src="assets/img/about_img.svg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End About -->
+<div class="cs-height_65 cs-height_lg_35"></div>
+<!-- Start Fun Fact -->
+<div class="container wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.35s">
+    <div class="row">
+
+        <div class="col-lg-3 col-6">
+            <div class="cs-funfact cs-style1">
+                <div class="cs-font_60 cs-font_36_sm cs-m0 cs-primary_font cs-primary_color cs-heading_line_height cs-bold">
+                    <span data-count-to="500" class="odometer"></span>+</div>
+                <p class="cs-m0 cs-font_30 cs-heading_line_height cs-font_22_sm">Участников</p>
+            </div>
+            <div class="cs-height_25 cs-height_lg_25"></div>
+        </div>
+        <div class="col-lg-3 col-6">
+            <div class="cs-funfact cs-style1">
+                <div class="cs-font_60 cs-font_36_sm cs-m0 cs-primary_font cs-primary_color cs-heading_line_height cs-bold">
+                    <span data-count-to="101" class="odometer"></span></div>
+                <p class="cs-m0 cs-font_30 cs-heading_line_height cs-font_22_sm">Пицца</p>
+            </div>
+            <div class="cs-height_25 cs-height_lg_25"></div>
+        </div>
+        <div class="col-lg-3 col-6">
+            <div class="cs-funfact cs-style1">
+                <div class="cs-font_60 cs-font_36_sm cs-m0 cs-primary_font cs-primary_color cs-heading_line_height cs-bold">
+                    <span data-count-to="52" class="odometer"></span>
+                </div>
+                <p class="cs-m0 cs-font_30 cs-heading_line_height cs-font_22_sm">Приза</p>
+            </div>
+            <div class="cs-height_25 cs-height_lg_25"></div>
+        </div>
+        <div class="col-lg-3 col-6">
+            <div class="cs-funfact cs-style1">
+                <div class="cs-font_60 cs-font_36_sm cs-m0 cs-primary_font cs-primary_color cs-heading_line_height cs-bold">
+                    <span data-count-to="5" class="odometer"></span></div>
+                <p class="cs-m0 cs-font_30 cs-heading_line_height cs-font_22_sm">Докладов</p>
+            </div>
+            <div class="cs-height_25 cs-height_lg_25"></div>
+        </div>
+    </div>
+</div>
+<!-- End Fun Fact -->
+<div class="cs-height_65 cs-height_lg_35"></div>
+<!-- Start Sponsor -->
+<section id="team">
+    <div class="container">
+        <div class="cs-seciton_heading cs-style1 text-uppercase text-center wow fadeInUp" data-wow-duration="1s"
+             data-wow-delay="0.2s">
+            <h2 class="cs-section_subtitle cs-m0 cs-font_36 cs-font_24_sm cs-gradient_color">Генеральный спонсор</h2>
+        </div>
+
+        <div class="cs-height_50 cs-height_lg_30"></div>
+        <div class="row wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="col-lg-12 col-sm-12">
+                <div class="cs-team cs-style1 text-center ">
+                    <div class="cs-slide ">
+                        <img src="assets/image/logo_white.png" alt="Member" class="cs-hide_dark" style="height: 200px;">
+                        <img src="assets/image/logo.png" alt="Member" class="cs-hide_white" style="height: 200px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Sponsor -->
+<div class="cs-height_65 cs-height_lg_35"></div>
+<!-- Start Goals -->
+<section id="roadmap">
+    <div class="cs-height_70 cs-height_lg_40"></div>
+    <div class="container">
+        <div class="cs-seciton_heading cs-style1 text-uppercase wow fadeInUp" data-wow-duration="1s"
+             data-wow-delay="0.2s">
+            <h3 class="cs-section_title cs-font_16 cs-font_14_sm cs-gradient_color">Для вас</h3>
+            <h2 class="cs-section_subtitle cs-m0 cs-font_36 cs-font_24_sm">Программа</h2>
+        </div>
+        <div class="cs-height_50 cs-height_lg_30"></div>
+        <div class="cs-accent_seperator_1 cs-accent_color wow fadeInLeft" data-wow-duration="1s"
+             data-wow-delay="0.4s"></div>
+        <div class="row wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="col-lg-3 col-md-6">
+                <div class="cs-card cs-style2">
+                    <div class="cs-card_number cs-accent_bg cs-white_color cs-center cs-primary_font cs-font_22 cs-bold">
+                        13:30
+                    </div>
+                    <div class="cs-height_30 cs-height_lg_15"></div>
+                    <div class="cs-card_in cs-white_bg">
+                        <h3 class="cs-gradient_color cs-font_18 cs-font_16_sm cs-m0">Начало</h3>
+                        <div class="cs-height_5 cs-height_lg_5"></div>
+                        <h2 class="cs-font_22 cs-font_16_sm cs-m0">Начало регистрации</h2>
+                        <div class="cs-height_10 cs-height_lg_10"></div>
+                        <p class="cs-m0">Организатор за анонимность, поэтому на входе вам выдадут
+                            номерок, по которому потом будут разыгрываться призы</p>
+                    </div>
+
+                </div>
+                <div class="cs-height_25 cs-height_lg_25"></div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="cs-card cs-style2">
+                    <div class="cs-card_number cs-accent_bg cs-white_color cs-center cs-primary_font cs-font_22 cs-bold">
+                        14:00
+                    </div>
+                    <div class="cs-height_30 cs-height_lg_15"></div>
+                    <div class="cs-slide">
+                        <div class="cs-team cs-style1 cs-type1 text-center">
+                            <div class="cs-member_thumb" data-src="assets/image/member_pavel.jpg">
+<!--                                <img src="assets/image/member_pavel.jpg" alt="Member">-->
+                            </div>
+                            <div class="cs-height_25 cs-height_lg_25"></div>
+                            <div class="cs-member_info">
+                                <h2 class="cs-font_22 cs-font_16_sm cs-m0">Pavel</h2>
+                                <div class="cs-height_5 cs-height_lg_5"></div>
+                                <p class="cs-m0">Создатель сообщевства и организатор митапа откроет мероприятие</p>
+                                <div class="cs-height_20 cs-height_lg_20"></div>
+                            </div>
+                        </div>
+                    </div><!-- .cs-slide -->
+                </div>
+                <div class="cs-height_25 cs-height_lg_25"></div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="cs-card cs-style2">
+                    <div class="cs-card_number cs-accent_bg cs-white_color cs-center cs-primary_font cs-font_22 cs-bold">
+                        14:10
+                    </div>
+                    <div class="cs-height_30 cs-height_lg_15"></div>
+                    <div class="cs-slide">
+                        <div class="cs-team cs-style1 cs-type1 text-center">
+                            <div class="cs-member_thumb" data-src="assets/image/member_meerson.jpg">
+                            </div>
+                            <div class="cs-height_25 cs-height_lg_25"></div>
+                            <div class="cs-member_info">
+                                <h2 class="cs-font_22 cs-font_16_sm cs-m0">Игорь Мерсон</h2>
+                                <div class="cs-height_5 cs-height_lg_5"></div>
+                                <p class="cs-m0">На разогреве у нас знаменитый стэнд ап комик, будет итшно шутить</p>
+                                <div class="cs-height_20 cs-height_lg_20"></div>
+                            </div>
+                        </div>
+                    </div><!-- .cs-slide -->
+
+                </div>
+
+                <div class="cs-height_25 cs-height_lg_25"></div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="cs-card cs-style2">
+                    <div class="cs-card_number cs-accent_bg cs-white_color cs-center cs-primary_font cs-font_22 cs-bold">
+                        14:30
+                    </div>
+                    <div class="cs-height_30 cs-height_lg_15"></div>
+                    <div class="cs-card_in cs-white_bg">
+                        <h3 class="cs-gradient_color cs-font_18 cs-font_16_sm cs-m0">[ALL] Евгение Сухов</h3>
+                        <div class="cs-height_5 cs-height_lg_5"></div>
+                        <h2 class="cs-font_22 cs-font_16_sm cs-m0">Что самое главное в разработке?</h2>
+                        <div class="cs-height_10 cs-height_lg_10"></div>
+                        <p class="cs-m0">Доклад находится на рассмотрении у программного комитета.</p>
+                    </div>
+                </div>
+                <div class="cs-height_25 cs-height_lg_25"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="cs-height_50 cs-height_lg_30"></div>
+        <div class="cs-accent_seperator_1 cs-accent_color wow fadeInLeft" data-wow-duration="1s"
+             data-wow-delay="0.4s"></div>
+        <div class="row wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="col-lg-3 col-md-6">
+                <div class="cs-card cs-style2">
+                    <div class="cs-card_number cs-accent_bg cs-white_color cs-center cs-primary_font cs-font_22 cs-bold">
+                        15:00
+                    </div>
+                    <div class="cs-height_30 cs-height_lg_15"></div>
+                    <div class="cs-card_in cs-white_bg">
+                        <h3 class="cs-gradient_color cs-font_18 cs-font_16_sm cs-m0">[FRONTEND] Владимир Федоров</h3>
+                        <div class="cs-height_5 cs-height_lg_5"></div>
+                        <h2 class="cs-font_22 cs-font_16_sm cs-m0">Разработка ПО как вид ЧЕЛОВЕЧЕСКОЙ деятельности</h2>
+                        <div class="cs-height_10 cs-height_lg_10"></div>
+                        <p class="cs-m0">Доклад находится на рассмотрении у программного комитета.</p>
+                    </div>
+
+                </div>
+                <div class="cs-height_25 cs-height_lg_25"></div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="cs-card cs-style2">
+                    <div class="cs-card_number cs-accent_bg cs-white_color cs-center cs-primary_font cs-font_22 cs-bold">
+                        15:30
+                    </div>
+                    <div class="cs-height_30 cs-height_lg_15"></div>
+                </div>
+
+                <div class="cs-iconbox cs-style1 cs-type1 cs-accent_bg text-center">
+                    <div class="cs-height_20 cs-height_lg_20"></div>
+                    <h3 class="cs-iconbox_title cs-font_22 cs-font_20_sm cs-m0 cs-white_color">Перерыв</h3>
+                    <div class="cs-height_10 cs-height_lg_10"></div>
+                    <div class="cs-iconbox_subtitle cs-white_color">Пицца, напитки будут ждать вас на выходе из зала
+                      <br> В баре вы можете взять кофе и десерт
+                    </div>
+                </div>
+                <div class="cs-height_25 cs-height_lg_25"></div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="cs-card cs-style2">
+                    <div class="cs-card_number cs-accent_bg cs-white_color cs-center cs-primary_font cs-font_22 cs-bold">
+                        16:00
+                    </div>
+                    <div class="cs-height_30 cs-height_lg_15"></div>
+                    <div class="cs-card_in cs-white_bg">
+                        <h3 class="cs-gradient_color cs-font_18 cs-font_16_sm cs-m0">[MOBILE] Дмитрий Зверев</h3>
+                        <div class="cs-height_5 cs-height_lg_5"></div>
+                        <h2 class="cs-font_22 cs-font_16_sm cs-m0">История мобильной разработки</h2>
+                        <div class="cs-height_10 cs-height_lg_10"></div>
+                        <p class="cs-m0">Доклад находится на рассмотрении у программного комитета.</p>
+                    </div>
+
+                </div>
+                <div class="cs-height_25 cs-height_lg_25"></div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="cs-card cs-style2">
+                    <div class="cs-card_number cs-accent_bg cs-white_color cs-center cs-primary_font cs-font_22 cs-bold">
+                        16:30
+                    </div>
+                    <div class="cs-height_30 cs-height_lg_15"></div>
+                    <div class="cs-card_in cs-white_bg">
+                        <h3 class="cs-gradient_color cs-font_18 cs-font_16_sm cs-m0">[BACKEND] Свободный слот</h3>
+                        <div class="cs-height_5 cs-height_lg_5"></div>
+                        <h2 class="cs-font_22 cs-font_16_sm cs-m0">Стать спикером</h2>
+                        <div class="cs-height_10 cs-height_lg_10"></div>
+
+                        <div class="cs-btn_group">
+                            <a href="https://forms.gle/1fXB3s7Eex1DGgB2A" target="_blank" class="cs-btn cs-btn_filed cs-primary_btn"><span>Оставить заявку</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cs-height_25 cs-height_lg_25"></div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="cs-height_50 cs-height_lg_30"></div>
+        <div class="cs-accent_seperator_1 cs-accent_color wow fadeInLeft" data-wow-duration="1s"
+             data-wow-delay="0.4s"></div>
+        <div class="row wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="col-lg-3 col-md-6">
+                <div class="cs-card cs-style2">
+                    <div class="cs-card_number cs-accent_bg cs-white_color cs-center cs-primary_font cs-font_22 cs-bold">
+                        17:00
+                    </div>
+                    <div class="cs-height_30 cs-height_lg_15"></div>
+                    <div class="cs-card_in cs-white_bg">
+                        <h3 class="cs-gradient_color cs-font_18 cs-font_16_sm cs-m0">[ALL]</h3>
+                        <div class="cs-height_5 cs-height_lg_5"></div>
+                        <h2 class="cs-font_22 cs-font_16_sm cs-m0">STARTUP FACTORY</h2>
+                        <div class="cs-height_10 cs-height_lg_10"></div>
+                        <p class="cs-m0">Презентация проектов SF, на каком этапе, куда двигаются</p>
+                    </div>
+
+                </div>
+                <div class="cs-height_25 cs-height_lg_25"></div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="cs-card cs-style2">
+                    <div class="cs-card_number cs-accent_bg cs-white_color cs-center cs-primary_font cs-font_22 cs-bold">
+                        18:00
+                    </div>
+                    <div class="cs-height_30 cs-height_lg_15"></div>
+                </div>
+
+                <div class="cs-iconbox cs-style1 cs-type1 cs-accent_bg text-center"  style="background-color: red;">
+                    <div class="cs-height_20 cs-height_lg_20"></div>
+                    <h3 class="cs-iconbox_title cs-font_22 cs-font_20_sm cs-m0 cs-white_color">After Party</h3>
+                    <div class="cs-height_10 cs-height_lg_10"></div>
+                    <div class="cs-iconbox_subtitle cs-white_color">Место afterpatry будет объявленно позже
+                    </div>
+                </div>
+                <div class="cs-height_25 cs-height_lg_25"></div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- End Goals -->
+<div class="cs-height_65 cs-height_lg_35"></div>
+<!-- Start FAQ -->
+<section id="faq">
+    <div class="cs-height_70 cs-height_lg_40"></div>
+    <div class="container">
+        <div class="cs-seciton_heading cs-style1 text-uppercase wow fadeInUp" data-wow-duration="1s"
+             data-wow-delay="0.2s">
+            <h3 class="cs-section_title cs-font_16 cs-font_14_sm cs-gradient_color">FAQ</h3>
+            <h2 class="cs-section_subtitle cs-m0 cs-font_36 cs-font_24_sm">Остались вопросы?</h2>
+        </div>
+        <div class="cs-height_50 cs-height_lg_30"></div>
+        <div class="row cs-accordians cs-style1 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="col-lg-6">
+                <div class="cs-accordian cs-white_bg active">
+                    <div class="cs-accordian_head">
+                        <h2 class="cs-accordian_title cs-m0 cs-font_22 cs-font_18_sm"><span>Q1.</span> Какие еще будут ативности?</h2>
+                        <span class="cs-accordian_toggle"></span>
+                    </div>
+                    <div class="cs-accordian-body">
+                        Розыгрыш призов <br>
+                        Можете продать себя рекрутерам <br>
+                        В холе есть стойки спонсоров, можно у них покрутиться <br>
+                        Поймать в колуарах спикера <br>
+                        Бар, рестораны, спа, казино <br>
+                    </div>
+                </div><!-- .cs-accordian -->
+                <div class="cs-height_25 cs-height_lg_25"></div>
+                <div class="cs-accordian cs-white_bg">
+                    <div class="cs-accordian_head">
+                        <h2 class="cs-accordian_title cs-m0 cs-font_22 cs-font_18_sm"><span>Q2.</span> Как добраться?
+                        </h2>
+                        <span class="cs-accordian_toggle"></span>
+                    </div>
+                    <div class="cs-accordian-body">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2951.842147120474!2d18.86370841576318!3d42.28189284802647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd7a51fa059f2e4d1!2sSplendid%20Conference%20%26%20Spa%20Resort!5e0!3m2!1sen!2s!4v1664961439810!5m2!1sen!2s"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div><!-- .cs-accordian -->
+                <div class="cs-height_25 cs-height_lg_25"></div>
+                <div class="cs-accordian cs-white_bg">
+                    <div class="cs-accordian_head">
+                        <h2 class="cs-accordian_title cs-m0 cs-font_22 cs-font_18_sm"><span>Q3.</span> Есть ли парковка?</h2>
+                        <span class="cs-accordian_toggle"></span>
+                    </div>
+                    <div class="cs-accordian-body">
+                        Да, езжайте как показывает гугл карты <br>
+                        При вьезде у вас забирут машину и дадут номер
+                    </div>
+                </div><!-- .cs-accordian -->
+                <div class="cs-height_25 cs-height_lg_25"></div>
+                <div class="cs-accordian cs-white_bg">
+                    <div class="cs-accordian_head">
+                        <h2 class="cs-accordian_title cs-m0 cs-font_22 cs-font_18_sm"><span>Q4.</span> Я могу заказать покушать в отеле?</h2>
+                        <span class="cs-accordian_toggle"></span>
+                    </div>
+                    <div class="cs-accordian-body">
+                        Это 5-ти звездовный отель, тут есть 5 ресторанов
+                    </div>
+                </div><!-- .cs-accordian -->
+                <div class="cs-height_25 cs-height_lg_25"></div>
+                <div class="cs-accordian cs-white_bg">
+                    <div class="cs-accordian_head">
+                        <h2 class="cs-accordian_title cs-m0 cs-font_22 cs-font_18_sm"><span>Q5.</span>Могу ли я остановиться в отеле?</h2>
+                        <span class="cs-accordian_toggle"></span>
+                    </div>
+                    <div class="cs-accordian-body">
+                       Конечно. Для гостей действует 10% скидка на номера, только нужно заранее написать на event@mail.com
+                        <br>
+                        Что "Хочу снять номер от монтенегро ит"
+                    </div>
+                </div><!-- .cs-accordian -->
+            </div>
+            <div class="col-lg-6">
+
+                <div class="cs-accordian cs-white_bg">
+                    <div class="cs-accordian_head">
+                        <h2 class="cs-accordian_title cs-m0 cs-font_22 cs-font_18_sm"><span>Q6.</span>Чем я могу занять жену?</h2>
+                        <span class="cs-accordian_toggle"></span>
+                    </div>
+                    <div class="cs-accordian-body">
+                        SPA/бассейн <br>
+                        Вот ссылка на подробности
+                    </div>
+                </div><!-- .cs-accordian -->
+                <div class="cs-height_25 cs-height_lg_25"></div>
+                <div class="cs-accordian cs-white_bg">
+                    <div class="cs-accordian_head">
+                        <h2 class="cs-accordian_title cs-m0 cs-font_22 cs-font_18_sm"><span>Q7.</span>Чем я могу занять ребенка?</h2>
+                        <span class="cs-accordian_toggle"></span>
+                    </div>
+                    <div class="cs-accordian-body">
+                        В Отеле есть иогорница)
+                    </div>
+                </div><!-- .cs-accordian -->
+                <div class="cs-height_25 cs-height_lg_25"></div>
+                <div class="cs-accordian cs-white_bg">
+                    <div class="cs-accordian_head">
+                        <h2 class="cs-accordian_title cs-m0 cs-font_22 cs-font_18_sm"><span>Q8.</span>Как добраться до автепати?</h2>
+                        <span class="cs-accordian_toggle"></span>
+                    </div>
+                    <div class="cs-accordian-body">
+                        Информация обновиться
+                    </div>
+                </div><!-- .cs-accordian -->
+                <div class="cs-height_25 cs-height_lg_25"></div>
+            </div><!-- .cs-accordians -->
+        </div>
+    </div>
+</section>
+<!-- End FAQ -->
+<div class="cs-height_65 cs-height_lg_35"></div>
+<!-- Start Sponsors -->
+<section id="sponsor-all">
+    <div class="container">
+        <div class="cs-seciton_heading cs-style1 text-uppercase wow fadeInUp" data-wow-duration="1s"
+             data-wow-delay="0.2s">
+            <h3 class="cs-section_title cs-font_16 cs-font_14_sm cs-gradient_color">Спонсоры</h3>
+            <h2 class="cs-section_subtitle cs-m0 cs-font_36 cs-font_24_sm">Бриллиантовые</h2>
+        </div>
+        <div class="cs-height_50 cs-height_lg_30"></div>
+        <div class="row wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="col-lg-6 col-sm-12">
+                <div class="cs-team cs-style1 text-center ">
+                    <div class="cs-slide ">
+                        <img src="assets/image/logo_white.png" alt="Member" class="cs-hide_dark" style="height: 150px;">
+                        <img src="assets/image/logo.png" alt="Member" class="cs-hide_white" style="height: 150px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="cs-team cs-style1 text-center ">
+                    <div class="cs-slide ">
+                        <img src="assets/image/logo_white.png" alt="Member" class="cs-hide_dark" style="height: 150px;">
+                        <img src="assets/image/logo.png" alt="Member" class="cs-hide_white" style="height: 150px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cs-height_50 cs-height_lg_30"></div>
+         <div class="cs-seciton_heading cs-style1 text-uppercase wow fadeInUp" data-wow-duration="1s"
+             data-wow-delay="0.2s">
+            <h2 class="cs-section_subtitle cs-m0 cs-font_22 cs-font_24_sm">Золотые</h2>
+        </div>
+        <div class="cs-height_50 cs-height_lg_30"></div>
+        <div class="row wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="col-lg-3 col-sm-12">
+                <div class="cs-team cs-style1 text-center ">
+                    <div class="cs-slide ">
+                        <img src="assets/image/logo_sf_w.jpg" alt="Member" class="cs-hide_dark" style="width: 250px;">
+                        <img src="assets/image/logo_sf.png" alt="Member" class="cs-hide_white" style="width: 250px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="cs-team cs-style1 text-center ">
+                    <div class="cs-slide ">
+                        <img src="assets/image/logo_white.png" alt="Member" class="cs-hide_dark" style="height: 100px;">
+                        <img src="assets/image/logo.png" alt="Member" class="cs-hide_white" style="height: 100px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="cs-team cs-style1 text-center ">
+                    <div class="cs-slide ">
+                        <img src="assets/image/logo_white.png" alt="Member" class="cs-hide_dark" style="height: 100px;">
+                        <img src="assets/image/logo.png" alt="Member" class="cs-hide_white" style="height: 100px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="cs-team cs-style1 text-center ">
+                    <div class="cs-slide ">
+                        <img src="assets/image/logo_white.png" alt="Member" class="cs-hide_dark" style="height: 100px;">
+                        <img src="assets/image/logo.png" alt="Member" class="cs-hide_white" style="height: 100px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cs-height_50 cs-height_lg_30"></div>
+         <div class="cs-seciton_heading cs-style1 text-uppercase wow fadeInUp" data-wow-duration="1s"
+             data-wow-delay="0.2s">
+            <h2 class="cs-section_subtitle cs-m0 cs-font_22 cs-font_24_sm">Серебрянные</h2>
+        </div>
+        <div class="cs-height_50 cs-height_lg_30"></div>
+        <div class="row wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="col-lg-6 col-sm-12">
+                <div class="cs-team cs-style1 text-center ">
+                    <div class="cs-slide">
+                        <img src="assets/image/logo_alar.png" alt="Member" class="cs-hide_dark" style="width: 250px;">
+                        <img src="assets/image/logo_alar_white.png" alt="Member" class="cs-hide_white" style="width: 250px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="cs-team cs-style1 text-center ">
+                    <div class="cs-slide ">
+                        <img src="assets/image/logo_so.png" alt="Member" class="cs-hide_dark" style="height: 100px;">
+                        <img src="assets/image/logo_so.png" alt="Member" class="cs-hide_white" style="height: 100px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cs-height_50 cs-height_lg_30"></div>
+
+        <div class="row wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="col-lg-3 col-sm-12">
+                <div class="cs-team cs-style1 text-center ">
+                    <div class="cs-slide ">
+                        <img src="assets/image/logo_qa.png" alt="Member" class="cs-hide_dark" style="height: 100px;">
+                        <img src="assets/image/logo_qa_white.svg" alt="Member" class="cs-hide_white" style="height: 100px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="cs-team cs-style1 text-center ">
+                    <div class="cs-slide ">
+                        <img src="assets/image/logo_white.png" alt="Member" class="cs-hide_dark" style="height: 75px;">
+                        <img src="assets/image/logo.png" alt="Member" class="cs-hide_white" style="height: 75px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="cs-team cs-style1 text-center ">
+                    <div class="cs-slide ">
+                        <img src="assets/image/logo_white.png" alt="Member" class="cs-hide_dark" style="height: 75px;">
+                        <img src="assets/image/logo.png" alt="Member" class="cs-hide_white" style="height: 75px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="cs-team cs-style1 text-center ">
+                    <div class="cs-slide ">
+                        <img src="assets/image/logo_k1.png" alt="Member" class="cs-hide_dark" style="height: 100px;">
+                        <img src="assets/image/logo_k1.png" alt="Member" class="cs-hide_white" style="height: 100px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cs-height_50 cs-height_lg_30"></div>
+        <div class="cs-seciton_heading cs-style1 text-uppercase wow fadeInUp" data-wow-duration="1s"
+             data-wow-delay="0.2s">
+            <h2 class="cs-section_subtitle cs-m0 cs-font_22 cs-font_24_sm">Партнеры</h2>
+        </div>
+        <div class="cs-height_50 cs-height_lg_30"></div>
+        <div class="row wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="col-lg-3 col-sm-12">
+                <div class="cs-team cs-style1 text-center ">
+                    <div class="cs-slide">
+                        <img src="assets/image/partner_ibh.jpg" alt="Member" class="cs-hide_dark" style="height: 150px;">
+                        <img src="assets/image/partner_ibh.jpg" alt="Member" class="cs-hide_white" style="height: 150px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="cs-team cs-style1 text-center ">
+                    <div class="cs-slide">
+                        <img src="assets/image/partner_jb_beam.png" alt="Member" class="cs-hide_dark" style="height: 150px;">
+                        <img src="assets/image/partner_jb_beam.png" alt="Member" class="cs-hide_white" style="height: 150px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="cs-team cs-style1 text-center ">
+                    <div class="cs-slide">
+                        <img src="assets/image/logo_white.png" alt="Member" class="cs-hide_dark" style="height: 75px;">
+                        <img src="assets/image/logo.png" alt="Member" class="cs-hide_white" style="height: 75px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="cs-team cs-style1 text-center ">
+                    <div class="cs-slide">
+                        <img src="assets/image/logo_white.png" alt="Member" class="cs-hide_dark" style="height: 75px;">
+                        <img src="assets/image/logo.png" alt="Member" class="cs-hide_white" style="height: 75px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+                <div class="cs-height_50 cs-height_lg_30"></div>
+
+        <div class="row wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+                        <div class="col-lg-3 col-sm-12">
+                <div class="cs-team cs-style1 text-center ">
+                    <div class="cs-slide ">
+                        <img src="assets/image/logo_white.png" alt="Member" class="cs-hide_dark" style="height: 75px;">
+                        <img src="assets/image/logo.png" alt="Member" class="cs-hide_white" style="height: 75px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="cs-team cs-style1 text-center ">
+                    <div class="cs-slide ">
+                        <img src="assets/image/logo_white.png" alt="Member" class="cs-hide_dark" style="height: 75px;">
+                        <img src="assets/image/logo.png" alt="Member" class="cs-hide_white" style="height: 75px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="cs-team cs-style1 text-center ">
+                    <div class="cs-slide ">
+                        <img src="assets/image/logo_white.png" alt="Member" class="cs-hide_dark" style="height: 75px;">
+                        <img src="assets/image/logo.png" alt="Member" class="cs-hide_white" style="height: 75px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="cs-team cs-style1 text-center ">
+                    <div class="cs-slide ">
+                        <img src="assets/image/logo_white.png" alt="Member" class="cs-hide_dark" style="height: 75px;">
+                        <img src="assets/image/logo.png" alt="Member" class="cs-hide_white" style="height: 75px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+                <div class="cs-height_50 cs-height_lg_30"></div>
+
+    </div>
+</section>
+<!-- End Sponsors -->
+<div class="cs-height_65 cs-height_lg_35"></div>
+
+
+<!-- Start CTA -->
+<div class="cs-height_65 cs-height_lg_35"></div>
+<div class="cs-footer_wrap cs-bg" data-src="assets/image/footer_bg_1.png">
+    <div class="container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+        <div class="cs-cta cs-style1 cs-accent_bg text-center">
+            <h2 class="cs-cta_title text-uppercase cs-white_color cs-font_60 cs-font_36_sm cs-m0">ПРИСОЕДИНЯЙТЕСЬ К
+                НАШЕМУ СООБЩЕСТВУ</h2>
+            <div class="cs-height_10 cs-height_lg_10"></div>
+            <div class="cs-cta_subtitle cs-white_color"></div>
+            <div class="cs-height_30 cs-height_lg_30"></div>
+            <div class="cs-cta_btns cs-center">
+                <a href="https://t.me/montenergo_it" class="cs-btn cs-btn_filed cs-white_btn_2">
+                    <span>Чат в телеграмме</span>
+                </a>
+                <a href="https://t.me/montenegro_it_events" class="cs-btn cs-btn_filed cs-white_btn_2">
+                    <span>Канал с Евентами</span>
+                </a>
+                <a href="https://t.me/montenegro_it_jobs" class="cs-btn cs-btn_filed cs-white_btn">
+                    <span>Канал с Вакансиями</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End CTA -->
+    <!-- Start Footer -->
+    <footer class="cs-footer text-center">
+        <div class="container">
+            <div class="cs-height_100 cs-height_lg_70"></div>
+            <div class="cs-footer_logo wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                <img src="assets/image/logo.png" alt="logo" class="cs-hide_white"  style="height: 100px;">
+                <img src="assets/image/logo_white.png" alt="logo" class="cs-hide_dark" style="height: 100px;">
+            </div>
+            <div class="cs-height_25 cs-height_lg_25"></div>
+            <div class="cs-social_btns cs-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                <a href="https://www.facebook.com/groups/montenegroit" class="cs-center cs-primary_color cs-accent_bg_hover cs-white_bg cs-white_color_hover">
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="24" height="24"
+                         preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32">
+                        <path fill="currentColor"
+                              d="m23.446 18l.889-5.791h-5.557V8.451c0-1.584.776-3.129 3.265-3.129h2.526V.392S22.277.001 20.085.001c-4.576 0-7.567 2.774-7.567 7.795v4.414H7.431v5.791h5.087v14h6.26v-14z"/>
+                    </svg>
+                </a>
+                <a href="https://youtu.be/KnmMHmQ9DsY" class="cs-center cs-primary_color cs-accent_bg_hover cs-white_bg cs-white_color_hover">
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="24" height="24"
+                         preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                        <g fill="none">
+                            <g clip-path="url(#svgIDa2)">
+                                <path fill="currentColor"
+                                      d="M23.5 6.507a2.786 2.786 0 0 0-.766-1.27a3.05 3.05 0 0 0-1.338-.742C19.518 4 11.994 4 11.994 4a76.624 76.624 0 0 0-9.39.47a3.16 3.16 0 0 0-1.338.76c-.37.356-.638.795-.778 1.276A29.09 29.09 0 0 0 0 12c-.012 1.841.151 3.68.488 5.494c.137.479.404.916.775 1.269c.371.353.833.608 1.341.743c1.903.494 9.39.494 9.39.494a76.8 76.8 0 0 0 9.402-.47a3.05 3.05 0 0 0 1.338-.742a2.78 2.78 0 0 0 .765-1.27A28.38 28.38 0 0 0 24 12.023a26.579 26.579 0 0 0-.5-5.517ZM9.602 15.424V8.577l6.26 3.424l-6.26 3.423Z"/>
+                            </g>
+                            <defs>
+                                <clipPath id="svgIDa2">
+                                    <path fill="#fff" d="M0 0h24v24H0z"/>
+                                </clipPath>
+                            </defs>
+                        </g>
+                    </svg>
+                </a>
+                <a href="https://t.me/montenergo_it" class="cs-center cs-primary_color cs-accent_bg_hover cs-white_bg cs-white_color_hover">
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="24" height="24"
+                         preserveAspectRatio="xMidYMid meet" viewBox="0 0 15 15">
+                        <path fill="currentColor"
+                              d="M5 4.768a.5.5 0 0 1 .761.34l.14.836a.5.5 0 0 1-.216.499l-.501.334A4.501 4.501 0 0 1 5 5.5v-.732ZM9.5 10a4.5 4.5 0 0 1-1.277-.184l.334-.5a.5.5 0 0 1 .499-.217l.836.14a.5.5 0 0 1 .34.761H9.5Z"/>
+                        <path fill="currentColor" fill-rule="evenodd"
+                              d="M0 7.5a7.5 7.5 0 1 1 3.253 6.182l-2.53 1.265a.5.5 0 0 1-.67-.67l1.265-2.53A7.467 7.467 0 0 1 0 7.5Zm4.23-3.42l.206-.138a1.5 1.5 0 0 1 2.311 1.001l.14.837a1.5 1.5 0 0 1-.648 1.495l-.658.438A4.522 4.522 0 0 0 7.286 9.42l.44-.658a1.5 1.5 0 0 1 1.494-.648l.837.14a1.5 1.5 0 0 1 1.001 2.311l-.138.207a.5.5 0 0 1-.42.229h-1A5.5 5.5 0 0 1 4 5.5v-1a.5.5 0 0 1 .23-.42Z"
+                              clip-rule="evenodd"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="cs-height_30 cs-height_lg_30"></div>
+
+            <ul class="cs-footer_menu cs-primary_font cs-primary_color cs-center text-uppercase wow fadeInUp"
+                data-wow-duration="1s" data-wow-delay="0.4s">
+                <li><a href="">Home</a></li>
+                <li><a href="">О Митапе</a></li>
+                <li><a href="">Программа</a></li>
+                <li><a href="">FAQ</a></li>
+            </ul>
+            <div class="cs-height_100 cs-height_lg_70"></div>
+            <div class="container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                 <div class="cs-copyright text-center">Copyright © 2022. All Rights Reserved by <span class="cs-primary_font cs-primary_color">MONTENEGRO IT MEETUP</span></div>
+            </div>
+          <div class="cs-height_25 cs-height_lg_25"></div>
+        </div>
+        <div class="cs-height_25 cs-height_lg_25"></div>
+    </footer>
+    <!-- End Footer -->
+</div>
+
+<!-- Script -->
+<script src="assets/js/plugins/jquery-3.6.0.min.js"></script>
+<script src="assets/js/plugins/jquery.slick.min.js"></script>
+<script src="assets/js/plugins/jquery.counter.min.js"></script>
+<script src="assets/js/plugins/wow.min.js"></script>
+<script src="assets/js/plugins/ripples.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

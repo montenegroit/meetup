@@ -3546,3 +3546,14 @@ li.menu-item-has-children
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+
+.cs-btn_center {
+    justify-content: center;
+}
+
+
+.cs-div_center{
+    display: flex;
+    flex-direction: column;
+}
